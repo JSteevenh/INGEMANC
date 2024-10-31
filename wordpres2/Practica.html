@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingemanc/Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="practica.css">
+    <link rel="stylesheet" href="AboutUs.css">
+    <link rel="stylesheet" href="ServicesOffered.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!--BLOQUE DE TOP-BAR-->
+    <div class="top-bar">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <div class="top-bar-left">
+                <span>
+                    <img src="Imagenes/telephone-svgrepo-com.png" alt="Teléfono" style="width: 16px; height: 16px;">
+                    <a href="https://wa.me/573175157866" class="telefono">(+57) 317-515-7866</a>
+                </span>
+                <span>
+                    <img src="Imagenes/location-svgrepo-com.png" alt="Ubicación" style="width: 16px; height: 16px;"> 
+                    Colombia
+                </span>
+                <span>
+                    <img src="Imagenes/email-svgrepo-com.png" alt="Correo" style="width: 16px; height: 16px;">
+                    comercial@ingemanc.com
+                </span>
+            </div>
+            <div class="top-bar-right">
+                <a href="https://www.instagram.com/elbrocko" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/elbrockopistolas" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://wa.me/1234567890" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--BLOQUE DE HEADER-->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark-transparent fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="Practica.html">
+                    <img src="Imagenes/icono.png" alt="Logo Empresa" class="logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Practica.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="ServiesOffered.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a class="dropdown-item" href="ServiesOffered.html">Diseño y fabricación de troqueles.</a></li>
+                                <li><a class="dropdown-item" href="ServiesOffered.html">Producción de moldes de alta precisión.</a></li>
+                                <li><a class="dropdown-item" href="ServiesOffered.html">Desarrollo de piezas y herramientas metálicas para diferentes industrias.</a></li>
+                                <li><a class="dropdown-item" href="ServiesOffered.html">Soluciones personalizadas para necesidades específicas.</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AboutUs.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ContactUs.html" class="btn btn-contact-us">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-text-container">
+            <p class="header-subtitle1">AÑOS DE EXPERIENCIA INOVANDO Y CREANDO PARA UNA EXCELENTE EXPERIENCIA EN 
+                CADA UNO DE LOS CLIENTES</p>
+            <h1 class="header-home-title">Soluciones de Ingenieía y Manufactura de Precisión</h1>
+            <p class="header-subtitle">Líderes en la industria metalmecánica desde 2008, llevando innovación y calidad a cada proyecto.</p>
+            <a href="ContactUs.html" class="btn-solicita-cotizacion">Solicita una Cotización</a>
+        </div>
+
+        <div id="headerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/encabezado1.jpg" class="d-block w-100" alt="Imagen 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/encabezado2.jpg" class="d-block w-100" alt="Imagen 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/encabezado3.jpg" class="d-block w-100" alt="Imagen 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Flecha al final del header -->
+        <div class="arrow-down">
+            <a href="#categories">
+                <img src="Imagenes/arrow-down-svgrepo-com.png" alt="Flecha hacia abajo">
+            </a>
+            
+        </div>
+
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--BLOQUE DE CATEGORIES-->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <div class="categories-grid">
+                <div class="categories-item">
+                    <img src="Imagenes/steel_11161537.png" alt="Imagen 1 bloque 1">
+                    <p class="categories-title">Amplia variedad de productos y servicios</p>
+                </div>
+                <div class="categories-item">
+                    <img src="Imagenes/insignia.png" alt="Imagen 2 bloque 1">
+                    <p class="categories-title">Alta calidad en nuestros productos</p>
+                </div>
+                <div class="categories-item">
+                    <img src="Imagenes/call-center-person-3-svgrepo-com.png" alt="Imagen 3 bloque 1">
+                    <p class="categories-title">Óptimo servicio al cliente</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE DE FEATURED PRODUCTS -->
+    <section id="image-gallery" class="image-gallery-section">
+        <div class="container">
+            <div class="text-content">
+                <h3 class="section-subtitle">Nuestra Empresa</h3>
+                <h2 class="section-title">Soluciones industriales al sector productivo</h2>
+                <p class="description">
+                    En Ingemanc, somos expertos en ofrecer soluciones integrales de ingeniería y manufactura. Desde la creación de troqueles hasta productos metálicos a medida, trabajamos con la última tecnología y un equipo altamente capacitado.
+                </p>
+            </div>
+            <div class="single-image">
+                <img src="Imagenes/workman-wearing-hard-hat-working-with-metal-constructions-factory.jpg" alt="Imagen principal">
+            </div>
+        </div>
+    </section>
+
+    <!--BLOQUE DE SERVICES OFFERED-->
+    <section id="services-section" class="services-section">
+        <div class="container">
+            <p class="section-subtitle">Comprometidos con la calidad y el servicio</p>
+            <h2 class="section-title">Algunos de nuestros productos y servicios</h2>
+            <p class="section-description">Nuestros clientes emblemáticos confían en nosotros para alcanzar el éxito. Únete a ellos y experimenta el impacto de elegir a los mejores.</p>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="Imagenes/HERRAJE SUSPENSION 4 POSICIONES 1.jpeg" alt="Proyecto Cementos">
+                    <p class="service-category">Diseño</p>
+                    <h3 class="service-title">Diseño y fabricación de troqueles</h3>
+                </div>
+                <div class="service-item">
+                    <img src="Imagenes/HSJCCD 4.jpeg" alt="Canales">
+                    <p class="service-category">Producción</p>
+                    <h3 class="service-title">Producción de moldes de alta precisión.</h3>
+                </div>
+                <div class="service-item">
+                    <img src="Imagenes/HMFP.jpeg" alt="Lámina Antidesgaste">
+                    <p class="service-category">Láminas y aceros</p>
+                    <h3 class="service-title">Desarrollo de piezas y herramientas metálicas.</h3>
+                </div>
+                <div class="service-item">
+                    <img src="Imagenes/two-colleagues-factory.jpg" alt="Aceros Cuadrados 1020">
+                    <p class="service-category">Soluciones</p>
+                    <h3 class="service-title">Soluciones personalizadas en necesidades específicas.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="custom-button">Explora Nuestros Servicios</button>
+        </div>
+    </section>
+
+    <!--SECTORES QUE ATENDEMOS-->
+    <section id="sectors-section" class="sectors-section">
+        <div class="container">
+            <p class="section-subtitle">Descubre cómo lo hacemos</p>
+            <h2 class="sectors-title">Industria y Sectores</h2>
+            <p class="sectors-description">Ingemanc brinda soluciones a una amplia gama de industrias, adaptándose a las necesidades específicas de cada sector.</p>
+            <div class="sectors-grid">
+                <div class="sector-item">
+                    <div class="sector-overlay">
+                        <img src="Imagenes/female-mechanic-holding-spare-parts-car.jpg" alt="Metalúrgico">
+                        <div class="sector-info">
+                            <span class="sector-icon"></span>
+                            <p class="sector-name">Automotriz y Motopartes: Fabricación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-item">
+                    <div class="sector-overlay">
+                        <img src="Imagenes/HSJCCD 4.jpeg" alt="Industrial">
+                        <div class="sector-info">
+                            <span class="sector-icon"></span>
+                            <p class="sector-name">Telecomunicaciones: Herrajes y soportes para fibra óptica.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-item">
+                    <div class="sector-overlay">
+                        <img src="Imagenes/welding-work-with-metal-construction-busy-metal-factory.jpg" alt="Industrial">
+                        <div class="sector-info">
+                            <span class="sector-icon"></span>
+                            <p class="sector-name">Construcción y Arquitectura: Estructuras metálicas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-item">
+                    <div class="sector-overlay">
+                        <img src="Imagenes/MED114.jpg" alt="Industrial">
+                        <div class="sector-info">
+                            <span class="sector-icon"></span>
+                            <p class="sector-name">Salud y Hospitales: Mobiliario hospitalario especializado.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega más elementos sectoriales como estos -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN VENTAJA COMPETITIVA -->
+    <section id="competitive-advantage" class="competitive-advantage-section">
+        <div class="container">
+            <div class="advantage-content">
+                <h3 class="competitive-subtitle">Nuestra Ventaja Competitiva</h3>
+                <p class="competitive-description">
+                    En Ingemanc, combinamos tecnología avanzada y más de 30 años de experiencia para garantizar resultados superiores en cada proyecto. Desde el diseño inicial hasta la entrega final, nuestra prioridad es la precisión y la calidad.
+                </p>
+                <ul class="key-points">
+                    <li>Uso de tecnología CNC de última generación y software SOLIDWORKS.</li>
+                    <li>Más de 500 proyectos exitosos completados en sectores industriales diversos.</li>
+                    <li>Equipo altamente calificado con más de 30 años de experiencia.</li>
+                </ul>
+                <a href="#" class="btn-primary">Conoce nuestras soluciones</a>
+            </div>
+        </div>
+    </section>
+
+    <!---PROYECTOS REALIZADOS-->
+    <section id="completed-projects" class="projects-section">
+        <div class="container">
+            <p class="section-subtitle">Comprometidos siempre con la alta calidad y servicios</p>
+            <h2 class="section-proyectos-subtitle">Proyectos Realizados</h2>
+            <p class="section-proyectos-description">
+                Nuestra experiencia define nuestra identidad. A lo largo de más de una década, hemos completado una amplia gama de proyectos, adaptándonos a las necesidades específicas de cada cliente y sector.
+            </p>
+            
+            <ul class="projects-list">
+                <li><strong>Diseño y Fabricación de Troqueles:</strong> Ejemplos como troqueles para motopartes, telecomunicaciones y construcción.</li>
+                <li><strong>Moldes para la Industria:</strong> Moldes para sillines de motos y almohadas.</li>
+                <li><strong>Ingeniería e Innovación:</strong> Desarrollo de maquinaria específica para sectores automotriz y de manufactura.</li>
+            </ul>
+            
+            <div class="projects-gallery">
+                <img src="Imagenes/TENSOR DROP 4.jpeg" alt="Imagen de Proyecto 1">
+                <img src="Imagenes/worker-is-controlling-process-rail-cutting-busy-metal-factory.jpg" alt="Imagen de Proyecto 2">
+                <img src="Imagenes/metal-preparations-are-ready-following-stage-processing.jpg" alt="Imagen de Proyecto 3">
+                <img src="Imagenes/metal-preparations-are-ready-following-stage-processing.jpg" alt="Imagen de Proyecto 3">
+            </div>
+    
+            <!-- Video o Galería opcional -->
+            <div class="projects-video">
+                <!-- Insertar video o galería aquí -->
+            </div>
+    
+            <a href="#" class="btn-explore-projects">Explora más de nuestros proyectos</a>
+        </div>
+    </section>
+
+    <!-- Bloque de Testimonios de Nuestros Clientes -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <p class="section-subtitle">¿Quiénes confían en nosotros?</p>
+            <h2 class="section-testimonios-title">Testimonios de Nuestros Clientes</h2>
+            <p class="section-testimonios-description">
+                Nuestros clientes confían en nosotros para mejorar su productividad y optimizar sus procesos. Aquí algunos de sus comentarios sobre el impacto de nuestras soluciones.
+            </p>
+
+            <div class="swiper-container testimonials-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <h3>Cliente 1</h3>
+                            <p>"Con Ingemanc, mejoramos nuestra productividad en un 30%. ha sido clave para nuestro éxito."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <h3>Cliente 2</h3>
+                            <p>"La precisión y la calidad de sus productos nos ha permitido destacar en el mercado."</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <h3>Cliente 3</h3>
+                            <p>"La precisión y la calidad de sus productos nos ha permitido destacar en el mercado."</p>
+                        </div>
+                    </div>
+                    <!-- Más testimonios si es necesario -->
+                </div>
+            </div>
+            <a href="#" class="btn-primary bounce-button">Conviértete en uno de nuestros clientes satisfechos</a>
+        </div>
+    </section>
+
+    <!-- Sección de Llamado a la Acción -->
+    <section id="call-to-action" class="cta-section">
+        <div class="container">
+            <p class="section-subtitle">Solicita una Cotización</p>
+            <h2 class="cta-title">¿Listo para Transformar tu Industria?</h2>
+            <p class="cta-description">
+                En Ingemanc, transformamos tus ideas en productos de alta precisión. Contáctanos hoy para comenzar tu próximo proyecto.
+            </p>
+            <a href="ContactUs.html" class="btn-primary">Solicitar Cotización</a>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer-section">
+        <div class="footer-content container">
+            <div class="footer-item">
+                <img src="Imagenes/icono.png" alt="Logo Empresa" class="footer-logo">
+                <p>Dirección</p>
+                <p>(+57) 317-515-7866</p>
+                <p>comercial@ingemanc.com</p>
+            </div>
+            <div class="footer-item">
+                <h3>Navega</h3>
+                <ul>
+                    <li><a href="AboutUs.html">Sobre nosotros</a></li>
+                    <li><a href="#sectors-section">Sectores</a></li>
+                    <li><a href="ServiesOffered.html">Servicios</a></li>
+                    <li><a href="ContactUs.html">Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Síguenos</h3>
+                <p>¡Síguenos en nuestras redes sociales y únete a nuestra comunidad!</p>
+                <div class="social-icons-footer">
+                    <a href="https://www.facebook.com/profile.php?id=100051871489497&mibextid=ZbWKwL" target="_blank" class="icon-circle">
+                        <img src="Imagenes/facebook-1-svgrepo-com.png" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="icon-circle">
+                        <img src="Imagenes/x-social-media-round-icon.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com/ingemancsas/profilecard/?igsh=MWlucmx5Ymh4MmVpaA==" target="_blank" class="icon-circle">
+                        <img src="Imagenes/instagram-1-svgrepo-com.png" alt="Instagram">
+                    </a>
+                    <a href="https://wa.me/573175157866" target="_blank" class="icon-circle">
+                        <img src="Imagenes/whatsapp-svgrepo-com.png" alt="Whatsapp">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón de flecha hacia arriba 
+        <div class="scroll-to-top">
+            <button onclick="scrollToTop()">
+                <img src="imagenes/arrow-narrow-up-move-svgrepo-com.png" alt="Scroll to top" class="arrow-icon">
+            </button>
+        </div>
+    </footer>-->
+
+    <!--BLOQUE DE ICONOS DE REDES SOCIALES-->
+    <div class="social-icons">
+        <div class="social-icon">
+            <a href="https://wa.me/573175157866" target="_blank">
+                <img src="imagenes/whatsapp-svgrepo-com.png" alt="WhatsApp">
+            </a>
+        </div>
+        <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100051871489497&mibextid=ZbWKwL" target="_blank">
+                <img src="Imagenes/facebook-1-svgrepo-com.png" alt="Facebook">
+            </a>
+        </div>
+        <div class="social-icon">
+            <a href="https://www.instagram.com/ingemancsas/profilecard/?igsh=MWlucmx5Ymh4MmVpaA==" target="_blank">
+                <img src="imagenes/instagram-1-svgrepo-com.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        let lastScrollTop = 0;
+         
+        const navbar = document.querySelector('.navbar');
+        const topBarHeight = document.querySelector('.top-bar').offsetHeight;
+        navbar.style.top = `${topBarHeight}px`;
+    
+        function updateNavbar() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Si estamos en la parte superior de la página, navbar es transparente
+            if (scrollTop <= topBarHeight) {
+                navbar.classList.add('transparent');
+                navbar.classList.remove('solid', 'hidden');
+            } 
+            // Si el usuario hace scroll hacia abajo, oculta la barra
+            else if (scrollTop > lastScrollTop) {
+                navbar.classList.add('hidden');
+            } 
+            // Si el usuario hace scroll hacia arriba, muestra la barra con fondo blanco
+            else {
+                navbar.classList.remove('hidden');
+                navbar.classList.add('solid');
+                navbar.classList.remove('transparent');
+            }
+
+            lastScrollTop = scrollTop;
+        }
+
+        window.addEventListener('scroll', updateNavbar);
+
+        document.addEventListener("DOMContentLoaded", updateNavbar);
+
+        document.addEventListener("DOMContentLoaded", () => {
+        navbar.style.transition = 'top 0.3s ease, opacity 0.3s ease';
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const dropdown = document.querySelector('.nav-item.dropdown');
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+            const dropdownToggle = dropdown.querySelector('.nav-link.dropdown-toggle');
+
+            dropdown.addEventListener('mouseenter', function () {
+            dropdown.classList.add('show');
+            dropdownMenu.classList.add('show');
+            });
+
+            dropdownMenu.addEventListener('mouseenter', function () {
+            dropdown.classList.add('show');
+            dropdownMenu.classList.add('show');
+            });
+
+            dropdown.addEventListener('mouseleave', function () {
+            dropdown.classList.remove('show');
+            dropdownMenu.classList.remove('show');
+            });
+
+            dropdownMenu.addEventListener('mouseleave', function () {
+            dropdown.classList.remove('show');
+            dropdownMenu.classList.remove('show');
+            });
+        
+            dropdownToggle.addEventListener('click', function (e) {
+                window.location.href = dropdownToggle.getAttribute('href');
+            });
+
+            document.addEventListener('click', function (e) {
+            const isClickInside = dropdown.contains(e.target);
+            if (!isClickInside) {
+                dropdown.classList.remove('show');
+                dropdownMenu.classList.remove('show');
+                }
+            });
+
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+
+        navbarToggler.addEventListener('click', function () {
+            navbarCollapse.classList.toggle('show');
+        });
+
+        document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+            link.addEventListener('click', function () {
+                navbarCollapse.classList.remove('show');
+            });
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!navbarCollapse.contains(e.target) && e.target !== navbarToggler) {
+                navbarCollapse.classList.remove('show');
+            }
+        });
+    });
+
+        // Mostrar el botón cuando se hace scroll hacia abajo
+        window.addEventListener('scroll', function() {
+        const scrollButton = document.querySelector('.scroll-to-top');
+        if (window.scrollY > 200) { // Mostrar el botón después de 200 píxeles
+            scrollButton.style.display = 'block';
+        } else {
+            scrollButton.style.display = 'none';
+        }
+    });
+
+    // Función para hacer scroll hasta arriba
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var swiper = new Swiper('.testimonials-swiper', {
+            loop: true,
+            slidesPerView: 3,
+            spaceBetween: 20, 
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1, 
+                },
+                1024: {
+                    slidesPerView: 2, 
+                },
+                1200: {
+                    slidesPerView: 3, 
+                }
+            }
+        });
+    });
+
+    </script>
+</body>
+</html>
